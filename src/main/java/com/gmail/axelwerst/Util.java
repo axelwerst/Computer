@@ -1,25 +1,56 @@
-package com.gmail.axelwerimport java.util.ArrayList;
-import java.util.ArrayList;
-import java.util.List;
+package com.gmail.axelwerst;
+
+import java.util.Arrays;
 
 public class Util {
-    // Функція для видалення всіх входжень заданого числа з масиву
-    public static int[] removeAllOccurrences(int[] array, int number) {
-        List<Integer> resultList = new ArrayList<>();
+    private int[] array;
+    private int delet;
 
-        // Проходимо по масиву та додаємо всі елементи, що не дорівнюють заданому числу
+    public Util() {
+        this.array = array;
+        this.delet = delet;
+    }
+    public int getDelet() {
+        return delet;
+    }
+    public int[] getArray() {
+        return array;
+    }
+    public void setArray(int[] array) {
+        this.array = array;
+    }
+    public void setDelet(int delet) {
+        this.delet = delet;
+    }
+
+    public int[] removeNumber() {
+        int abcurz = 0;
+        if (array == null) {
+            return new int[0];  // Повертаємо порожній масив, якщо array == null
+        }
+
         for (int num : array) {
-            if (num != number) {
-                resultList.add(num);
+            if (num == delet) {
+                abcurz++;
             }
         }
 
-        // Перетворюємо результат в масив
-        int[] result = new int[resultList.size()];
-        for (int i = 0; i < resultList.size(); i++) {
-            result[i] = resultList.get(i);
-        }
+        int[] result = new int[array.length - abcurz];
+        int t = 0;
 
+        for (int num : array) {
+            if (num != delet) {
+                result[t] = num;
+                t++;
+            }
+        }
         return result;
+    }
+
+    @Override
+    public String toString() {
+        return "Util{" +
+                "result=" + Arrays.toString(removeNumber()) +
+                '}';
     }
 }

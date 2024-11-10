@@ -1,7 +1,6 @@
 package com.gmail.axelwerst;
 
 public class Computer {
-
     public Computer(){
     }
     public Computer(int ram, int rom, int CPU, operationSystem SYS, String name) {
@@ -59,7 +58,7 @@ public class Computer {
     @Override
     public String toString() {
         return "Computer{" +
-                "Ram=" + Ram +
+                "Ram=" + Ram + "gb"+
                 ", Rom=" + Rom +
                 ", CPU=" + CPU +
                 ", SYS='" + SYS + '\'' +
