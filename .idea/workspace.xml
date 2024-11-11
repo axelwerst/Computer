@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7cc297e7-caf4-44f6-800d-6d506a348255" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/axelwerst/Computer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/gmail/axelwerst/ComputerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/gmail/axelwerst/ComputerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +56,22 @@
       <recent name="com.gmail.axelwerst" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.ComputerTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.axelwerst.App" />
+      <module name="Computer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.axelwerst.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ComputerTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.axelwerst.ComputerTest" />
       <module name="Computer" />
       <extension name="coverage">
         <pattern>
@@ -86,8 +98,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.ComputerTest" />
         <item itemvalue="Application.UtilTest" />
+        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
