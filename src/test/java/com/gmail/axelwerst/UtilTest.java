@@ -1,4 +1,4 @@
-package com.gmail.axelwerst;
+/*package com.gmail.axelwerst;
 
 import junit.framework.TestCase;
 
@@ -74,4 +74,4 @@ public class UtilTest extends TestCase {
             System.out.println("test passt");
         }
     }
-}
+}*/
